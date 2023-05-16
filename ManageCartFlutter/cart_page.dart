@@ -1,24 +1,3 @@
-import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:food_delivery_app/commonwidgets/abs_button.dart';
-import 'package:food_delivery_app/data/api/api_models/cart_list_model.dart';
-import 'package:food_delivery_app/data/models/order_place_arguments.dart';
-import 'package:food_delivery_app/pages/cart/cart_controller.dart';
-import 'package:food_delivery_app/pages/home/home_controller.dart';
-import 'package:food_delivery_app/pages/order/customize_order_screen.dart';
-import 'package:food_delivery_app/pages/profile/addressscreen/address_screen.dart';
-import 'package:food_delivery_app/utils/abs_text_style.dart';
-import 'package:food_delivery_app/utils/app_assets.dart';
-import 'package:food_delivery_app/utils/utils.dart';
-import 'package:get/get.dart';
-import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
-import '../../data/api/api_requests/cart_request.dart';
-import '../../utils/abs_colors.dart';
-import '../../utils/abs_error_indicator.dart';
-import '../../utils/app_string.dart';
-
 class CartPage extends StatefulWidget {
   const CartPage({Key? key}) : super(key: key);
 
