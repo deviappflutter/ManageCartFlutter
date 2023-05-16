@@ -1,13 +1,3 @@
-import 'package:food_delivery_app/data/api/api_models/cart_list_model.dart';
-import 'package:food_delivery_app/data/api/api_models/vendor_details_model.dart';
-import 'package:food_delivery_app/data/api/api_requests/cart_request.dart';
-import 'package:food_delivery_app/data/api/api_requests/user_address_request.dart';
-import 'package:get/get.dart';
-
-import '../../data/api/api_response.dart';
-import '../../data/app/app_repository.dart';
-import '../../data/app/service_locator.dart';
-
 class CartController extends GetxController{
 
   ApiResponse<CartListModel>? cartData;
